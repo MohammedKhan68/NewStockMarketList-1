@@ -1,5 +1,10 @@
-Symbol,Name,GrowthTarget
-AAPL,Apple,5
-AMD,Advanced Micro Devices,5
-TSLA,Tesla,5
-GOOGL,Alphabet,5
+Symbol,Company,CurrentPrice,OneMonthPct,ThreeMonthPct,SixMonthPct,OneYearPct,DataAsOf
+META,"Meta Platforms, Inc.",673.42,,,,,2025-12-06 18:35:40
+AAPL,Apple Inc.,278.78,,,,,2025-12-06 18:35:40
+MSFT,Microsoft Corporation,483.16,,,,,2025-12-06 18:35:40
+GOOGL,Alphabet Inc.,321.27,,,,,2025-12-06 18:35:41
+AMZN,"Amazon.com, Inc.",229.53,,,,,2025-12-06 18:35:41
+NVDA,NVIDIA Corporation,182.41,,,,,2025-12-06 18:35:41
+TSLA,"Tesla, Inc.",455.0,,,,,2025-12-06 18:35:41
+SHOP,Shopify Inc.,161.08,,,,,2025-12-06 18:35:42
+AMD,"Advanced Micro Devices, Inc.",217.97,,,,,2025-12-06 18:35:42
