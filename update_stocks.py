@@ -59,7 +59,8 @@ def main():
         try:
             t = yf.Ticker(sym)
             # get history for last ~400 trading days to be safe
-            hist = t.history(period="1y", interval="1d", actions=False, auto_adjust=False)
+            hist = t.history(period="3y", interval="1d", actions=False, auto_adjust=False)
+
             if hist.empty:
                 # fallback to fast info
                 cur_price = t.info.get("regularMarketPrice", None)
