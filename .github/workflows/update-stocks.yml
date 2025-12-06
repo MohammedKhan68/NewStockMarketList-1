@@ -1,5 +1,9 @@
 name: Update stocks CSV
 
+# Allow the built-in GITHUB_TOKEN to write to the repo
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 4 * * *'  # daily at 04:00 UTC
